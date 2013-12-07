@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-xq
 Version:	0.3
-Release:	3
+Release:	4
 Summary:	Support for writing about xiangqi
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xq
