@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /fonts/xq
-# catalog-date 2007-03-13 09:23:19 +0100
-# catalog-license lppl
-# catalog-version 0.3
 Name:		texlive-xq
-Version:	0.3
-Release:	10
+Version:	0.4
+Release:	1
 Summary:	Support for writing about xiangqi
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xq
@@ -33,22 +27,9 @@ special positions.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/source/public/xq/xqaddsignsbase.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqaddsignslarge.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqaddsignsnormal.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqbase.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqhints.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqlarge.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqnormal.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqwestbase.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqwestlarge.mf
-%{_texmfdistdir}/fonts/source/public/xq/xqwestnormal.mf
-%{_texmfdistdir}/fonts/tfm/public/xq/xqlarge.tfm
-%{_texmfdistdir}/fonts/tfm/public/xq/xqnormal.tfm
+%{_texmfdistdir}/fonts/*/*/xq
 %{_texmfdistdir}/tex/latex/xq/xq.sty
-%doc %{_texmfdistdir}/doc/fonts/xq/README
-%doc %{_texmfdistdir}/doc/fonts/xq/xqexample.pdf
-%doc %{_texmfdistdir}/doc/fonts/xq/xqexample.tex
+%doc %{_texmfdistdir}/doc/fonts/xq
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,16 +40,3 @@ special positions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3-2
-+ Revision: 757668
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3-1
-+ Revision: 719949
-- texlive-xq
-- texlive-xq
-- texlive-xq
-
