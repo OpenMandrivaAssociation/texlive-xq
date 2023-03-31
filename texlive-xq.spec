@@ -1,6 +1,6 @@
 Name:		texlive-xq
 Version:	35211
-Release:	1
+Release:	2
 Summary:	Support for writing about xiangqi
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xq
