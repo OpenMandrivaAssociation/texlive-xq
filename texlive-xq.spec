@@ -3,7 +3,7 @@ Version:	35211
 Release:	2
 Summary:	Support for writing about xiangqi
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/xq
+URL:		https://www.ctan.org/tex-archive/fonts/xq
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xq.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xq.doc.r%{version}.tar.xz
